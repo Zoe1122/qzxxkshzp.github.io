@@ -27,6 +27,12 @@ nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
 img{max-width:100%;}
 /*end reset*/
+.fullbg {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 body{
 	margin:0;
 	padding:0;
@@ -39,7 +45,10 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-	 font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
+    overflow：hidden;
+	width: 100%;
+    height: 100%;
  }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
@@ -166,7 +175,7 @@ input[type="submit"],a,.agileinfo_social_icons li{
     padding: 4.4em 0 3em;
 }
 .clock .column {
-    padding: 46px 28px;
+    padding: 46px 0;
 }
 }
 @media (max-width: 1280px){
